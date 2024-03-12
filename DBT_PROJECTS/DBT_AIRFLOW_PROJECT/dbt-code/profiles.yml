@@ -1,0 +1,32 @@
+Netflix:
+  outputs:
+    default:
+      account: bqfcvrb-yhb05865
+      database: PROD
+      password: Manish4u@net123
+      role: ACCOUNTADMIN
+      schema: DBT_RAW
+      threads: 1
+      type: snowflake
+      user: bjkush
+      warehouse: COMPUTE_WH
+    dev:
+      account: bqfcvrb-yhb05865
+      database: PROD
+      password: Manish4u@net123
+      role: ACCOUNTADMIN
+      schema: DBT_TRANSFORM
+      threads: 1
+      type: snowflake
+      user: bjkush
+      warehouse: COMPUTE_WH
+    prod:
+      account: bqfcvrb-yhb05865
+      database: PROD
+      password: Manish4u@net123
+      role: ACCOUNTADMIN
+      schema: DBT_PROD
+      threads: 1
+      type: snowflake
+      user: bjkush
+

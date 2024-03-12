@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: netflix_fact
+    database: PROD
+    schema: DBT_TRANSFORM
+    tables:
+      - name: SCORES_VOTES_DIM
+      - name: SHOW_DETAILS_DIM
+      - name: CREDITS_DIM
